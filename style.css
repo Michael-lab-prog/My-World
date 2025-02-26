@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+html{
+    min-height: 100%;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+body{
+    min-height: 100%;
+}
+.content{
+    position: relative;
+    width: 580px;
+    margin: 50px auto;
+    text-align: center;
+}
+.content_title{
+    font-size: 50px;
+    color: #585454;
+    text-shadow:0 0 10px #fff;
+    padding: 20px;
+}
+.menu{
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 500px;
+    height: auto;
+    border-radius: 250px;
+    transition: all 0.5s ease-in-out;
+}
+.menu li{
+    font-size: 36px;
+    display: block;
+    line-height: 66px;
+}
+.menu li a{
+    color: rgb(116, 255, 88);
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0 0 3 px #f1b635;
+    display: block;
+    transform: scale(0.8);
+    transition: all 0.4s linear;
+}
+.menu:hover{
+    background:rgba(0, 0, 0, 0.4); 
+    text-align: center;
+}
+.menu:hover li a{
+    text-shadow: 0 0 5px #35f83e;
+    color: transparent;
+}
+.menu li a:hover{
+    color: white;
+    text-shadow: none;
+    transform: scale(1);
+}
